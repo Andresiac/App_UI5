@@ -4,6 +4,22 @@
             <pages>
                 <Page id="page" title="{i18n>title}">
                     <content />
+                    <Button
+                        activeIcon=""
+                        enabled="true"
+                        icon=""
+                        iconDensityAware="true"
+                        iconFirst="true"
+                        text="Next"
+                        textDirection="Inherit"
+                        type="Default"
+                        width=""
+                        press="onPress"
+
+                    >
+                        
+                    </Button>
+
                 </Page>
             </pages>
         </App>

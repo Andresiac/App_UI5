@@ -8,6 +8,10 @@ sap.ui.define(
 
         return Controller.extend("com.test.PROJECTTEST.controller.MainView", {
             onInit: function () {},
+
+		onPress: function(oEvent) {
+			alert("Pum!");
+		},
         });
     }
 );
